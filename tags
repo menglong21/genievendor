@@ -1,0 +1,732 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ADC_FD_PATH	batterymonitor.c	36;"	d	file:
+ADD_EMPTY	include/mediamanager.h	/^    ADD_EMPTY,$/;"	e	enum:__anon3
+ADD_FAIL	include/mediamanager.h	/^    ADD_FAIL,$/;"	e	enum:__anon3
+ADD_SUCCESS	include/mediamanager.h	/^    ADD_SUCCESS = 0,    $/;"	e	enum:__anon3
+AGLOG_CONFIG_FILE	genievendor.c	43;"	d	file:
+AG_KEYCODE_E	include/keymanager.h	/^} AG_KEYCODE_E;$/;"	t	typeref:enum:__anon5
+AR	makefile	/^AR = $(CROSS_COMPILE)ar$/;"	m
+AS	makefile	/^AS = $(CROSS_COMPILE)as$/;"	m
+BADNAME	include/mediamanager.h	83;"	d
+BATTERY_VOLTAGE_MAX	batterymonitor.c	38;"	d	file:
+BATTERY_VOLTAGE_MIN	batterymonitor.c	39;"	d	file:
+BOOL	include/genievendor.h	/^typedef unsigned char BOOL;$/;"	t
+BOOL	include/genievendor.h	25;"	d
+CC	makefile	/^CC = $(CROSS_COMPILE)gcc$/;"	m
+CFLAGS	makefile	/^CFLAGS  := -O2 -Wall -MD $(DEFINES) $(INCLUDE) -D_GNU_SOURCE -std=c99 -D__STDC_LIMIT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_CONSTANT_MACROS -DOS_TYPE_LINUX -DPLATFORM_IS_BDP$/;"	m
+CHARGE_STATUS_E	include/logic.h	/^}CHARGE_STATUS_E;$/;"	t	typeref:enum:__anon9
+CPP	makefile	/^CPP = $(CROSS_COMPILE)g++$/;"	m
+CPP_OBJS	makefile	/^CPP_OBJS := $(patsubst %.cpp,%.o,$(CPP_SOURCE))$/;"	m
+CPP_SOURCE	makefile	/^CPP_SOURCE := $/;"	m
+CROSS_COMPILE	makefile	/^CROSS_COMPILE = arm-none-linux-gnueabi-$/;"	m
+CXXFLAGS	makefile	/^CXXFLAGS:= $(CFLAGS) -DHAVE_CONFIG_H$/;"	m
+DAZIMU	include/mediamanager.h	86;"	d
+DEFINES	makefile	/^DEFINES :=$/;"	m
+DEL_FAIL	include/mediamanager.h	/^    DEL_FAIL,$/;"	e	enum:__anon3
+DEL_SUCCESS	include/mediamanager.h	/^    DEL_SUCCESS,$/;"	e	enum:__anon3
+DIRS	makefile	/^DIRS := .\/$/;"	m
+ERROR	include/genievendor.h	39;"	d
+EXTERN	include/backtrace.h	20;"	d
+EXTERN	include/backtrace.h	22;"	d
+EXTERN	include/backtrace.h	24;"	d
+EXTERN	include/batterymonitor.h	19;"	d
+EXTERN	include/batterymonitor.h	21;"	d
+EXTERN	include/batterymonitor.h	23;"	d
+EXTERN	include/jsonparser.h	19;"	d
+EXTERN	include/jsonparser.h	21;"	d
+EXTERN	include/jsonparser.h	23;"	d
+EXTERN	include/keyevent_reader.h	10;"	d
+EXTERN	include/keyevent_reader.h	12;"	d
+EXTERN	include/keyevent_reader.h	8;"	d
+EXTERN	include/keymanager.h	20;"	d
+EXTERN	include/keymanager.h	22;"	d
+EXTERN	include/keymanager.h	24;"	d
+EXTERN	include/lightmanager.h	19;"	d
+EXTERN	include/lightmanager.h	21;"	d
+EXTERN	include/lightmanager.h	23;"	d
+EXTERN	include/logic.h	19;"	d
+EXTERN	include/logic.h	21;"	d
+EXTERN	include/logic.h	23;"	d
+EXTERN	include/mediamanager.h	19;"	d
+EXTERN	include/mediamanager.h	21;"	d
+EXTERN	include/mediamanager.h	23;"	d
+EXTERN	include/socketmanager.h	19;"	d
+EXTERN	include/socketmanager.h	21;"	d
+EXTERN	include/socketmanager.h	23;"	d
+EXTERN	include/usbmonitor.h	18;"	d
+EXTERN	include/usbmonitor.h	20;"	d
+EXTERN	include/usbmonitor.h	22;"	d
+FALSE	include/genievendor.h	36;"	d
+FAVORITE_STORE_FOLDER	include/mediamanager.h	62;"	d
+FAV_RETVALUE_E	include/mediamanager.h	/^} FAV_RETVALUE_E;$/;"	t	typeref:enum:__anon3
+FILE_FAVOURITE_PATH	mediamanager.c	/^const char FILE_FAVOURITE_PATH[] = {MEM_ROOT_PATH"favourite.dat"};$/;"	v
+FILE_LIST_PATH	mediamanager.c	/^const char FILE_LIST_PATH[] = {MEM_ROOT_PATH"list.txt"};$/;"	v
+FUHAO	include/mediamanager.h	84;"	d
+FUNCTION_BEGIN	include/libaglog.h	142;"	d
+FUNCTION_END	include/libaglog.h	143;"	d
+GENIEVENDOR_VERSION	genievendor.c	42;"	d	file:
+GPIO_FD_BLUE	lightmanager.c	39;"	d	file:
+GPIO_FD_GREEN	lightmanager.c	38;"	d	file:
+GPIO_FD_RED	lightmanager.c	37;"	d	file:
+GVKEY_AI_START	include/keymanager.h	/^    GVKEY_AI_START,$/;"	e	enum:__anon5
+GVKEY_AI_STOP	include/keymanager.h	/^    GVKEY_AI_STOP,$/;"	e	enum:__anon5
+GVKEY_CHARGING	include/keymanager.h	/^    GVKEY_CHARGING,$/;"	e	enum:__anon5
+GVKEY_INTERCOM_START	include/keymanager.h	/^    GVKEY_INTERCOM_START,$/;"	e	enum:__anon5
+GVKEY_INTERCOM_STOP	include/keymanager.h	/^    GVKEY_INTERCOM_STOP,$/;"	e	enum:__anon5
+GVKEY_INVAILD	include/keymanager.h	/^    GVKEY_INVAILD = 0,$/;"	e	enum:__anon5
+GVKEY_LED	include/keymanager.h	/^    GVKEY_LED,$/;"	e	enum:__anon5
+GVKEY_NEXT	include/keymanager.h	/^    GVKEY_NEXT,$/;"	e	enum:__anon5
+GVKEY_OPERATE_FAVORITE	include/keymanager.h	/^    GVKEY_OPERATE_FAVORITE,$/;"	e	enum:__anon5
+GVKEY_PLAYPAUSE	include/keymanager.h	/^    GVKEY_PLAYPAUSE,$/;"	e	enum:__anon5
+GVKEY_PLAY_FAVORITE	include/keymanager.h	/^    GVKEY_PLAY_FAVORITE,$/;"	e	enum:__anon5
+GVKEY_PLAY_INTERCOM	include/keymanager.h	/^    GVKEY_PLAY_INTERCOM,$/;"	e	enum:__anon5
+GVKEY_PLAY_MUSIC	include/keymanager.h	/^    GVKEY_PLAY_MUSIC,$/;"	e	enum:__anon5
+GVKEY_PLAY_SINOLOGY	include/keymanager.h	/^    GVKEY_PLAY_SINOLOGY,$/;"	e	enum:__anon5
+GVKEY_PLAY_STORY	include/keymanager.h	/^    GVKEY_PLAY_STORY,$/;"	e	enum:__anon5
+GVKEY_PREV	include/keymanager.h	/^    GVKEY_PREV,$/;"	e	enum:__anon5
+GVKEY_RESET	include/keymanager.h	/^    GVKEY_RESET,$/;"	e	enum:__anon5
+GVKEY_TRANSLATE_START	include/keymanager.h	/^    GVKEY_TRANSLATE_START,$/;"	e	enum:__anon5
+GVKEY_TRANSLATE_STOP	include/keymanager.h	/^    GVKEY_TRANSLATE_STOP,$/;"	e	enum:__anon5
+GVKEY_UNCHARGING	include/keymanager.h	/^    GVKEY_UNCHARGING,$/;"	e	enum:__anon5
+GVKEY_VOLUME_DOWN	include/keymanager.h	/^    GVKEY_VOLUME_DOWN,$/;"	e	enum:__anon5
+GVKEY_VOLUME_UP	include/keymanager.h	/^    GVKEY_VOLUME_UP,$/;"	e	enum:__anon5
+GVKEY_WIFI_SETUP	include/keymanager.h	/^    GVKEY_WIFI_SETUP,$/;"	e	enum:__anon5
+GV_CABLE_CHARGING	include/logic.h	/^    GV_CABLE_CHARGING,$/;"	e	enum:__anon9
+GV_CABLE_PLUGIN	include/logic.h	/^    GV_CABLE_PLUGIN,$/;"	e	enum:__anon9
+GV_CABLE_STANDBY	include/logic.h	/^    GV_CABLE_STANDBY=0,$/;"	e	enum:__anon9
+GV_CABLE_UNCHARGING	include/logic.h	/^    GV_CABLE_UNCHARGING,$/;"	e	enum:__anon9
+GV_CALBE_PLUGOUT	include/logic.h	/^    GV_CALBE_PLUGOUT,$/;"	e	enum:__anon9
+GV_CTX_READY	include/socketmanager.h	39;"	d
+GV_ERR	include/genievendor.h	22;"	d
+GV_FAIL	include/genievendor.h	21;"	d
+GV_NETWORK_CONNECTED	include/logic.h	/^    GV_NETWORK_CONNECTED,$/;"	e	enum:__anon10
+GV_NETWORK_DISCNNECTED	include/logic.h	/^    GV_NETWORK_DISCNNECTED,$/;"	e	enum:__anon10
+GV_NETWORK_UNKNOWN	include/logic.h	/^    GV_NETWORK_UNKNOWN = 0,$/;"	e	enum:__anon10
+GV_OK	include/genievendor.h	20;"	d
+GV_PLAYER_PAUSE	include/logic.h	/^    GV_PLAYER_PAUSE,$/;"	e	enum:__anon12
+GV_PLAYER_PLAY	include/logic.h	/^    GV_PLAYER_PLAY,$/;"	e	enum:__anon12
+GV_PLAYER_PLAY_AUTO	include/logic.h	/^    GV_PLAYER_PLAY_AUTO=0,$/;"	e	enum:__anon13
+GV_PLAYER_PLAY_HOLD	include/logic.h	/^    GV_PLAYER_PLAY_HOLD,    $/;"	e	enum:__anon13
+GV_PLAYER_PLAY_MEDIAKEY	include/logic.h	/^    GV_PLAYER_PLAY_MEDIAKEY,$/;"	e	enum:__anon13
+GV_PLAYER_STOP	include/logic.h	/^    GV_PLAYER_STOP,$/;"	e	enum:__anon12
+GV_PLAYER_UNKNOWN	include/logic.h	/^    GV_PLAYER_UNKNOWN = 0,$/;"	e	enum:__anon12
+GV_SDCARD_SCAN_FAILED	include/logic.h	/^    GV_SDCARD_SCAN_FAILED,$/;"	e	enum:__anon8
+GV_SDCARD_SCAN_ING	include/logic.h	/^    GV_SDCARD_SCAN_ING,$/;"	e	enum:__anon8
+GV_SDCARD_SCAN_NOTSTART	include/logic.h	/^    GV_SDCARD_SCAN_NOTSTART=0,$/;"	e	enum:__anon8
+GV_SDCARD_SCAN_OK	include/logic.h	/^    GV_SDCARD_SCAN_OK,$/;"	e	enum:__anon8
+GV_SDCARD_UMOUNT	include/logic.h	/^    GV_SDCARD_UMOUNT,	$/;"	e	enum:__anon8
+GV_SYSTEM_BOOTING	include/logic.h	/^    GV_SYSTEM_BOOTING,$/;"	e	enum:__anon11
+GV_SYSTEM_NORMAL	include/logic.h	/^    GV_SYSTEM_NORMAL,$/;"	e	enum:__anon11
+GV_SYSTEM_STANDBY	include/logic.h	/^    GV_SYSTEM_STANDBY,$/;"	e	enum:__anon11
+GV_SYSTEM_UNKNOWN	include/logic.h	/^    GV_SYSTEM_UNKNOWN = 0,$/;"	e	enum:__anon11
+GV_USB_CONNECTED	include/logic.h	/^    GV_USB_CONNECTED,$/;"	e	enum:__anon7
+GV_USB_DISCONNECTED	include/logic.h	/^    GV_USB_DISCONNECTED=0,$/;"	e	enum:__anon7
+G_JSON_MAX_LENGTH_KEY	include/aligeniesdk_json_api.h	22;"	d
+G_JSON_MAX_LENGTH_METHOD	include/aligeniesdk_json_api.h	20;"	d
+G_JSON_MAX_LENGTH_VALUE	include/aligeniesdk_json_api.h	24;"	d
+G_JSON_MAX_PATH_LENGTH	include/aligeniesdk_json_api.h	26;"	d
+G_PARAMS_KEY_AUDIO_AUTHOR	include/aligeniesdk_json_api.h	96;"	d
+G_PARAMS_KEY_AUDIO_NAME	include/aligeniesdk_json_api.h	95;"	d
+G_PARAMS_KEY_BATTERY_PERCENT	include/aligeniesdk_json_api.h	76;"	d
+G_PARAMS_KEY_BUTTON_NAME	include/aligeniesdk_json_api.h	47;"	d
+G_PARAMS_KEY_CHILDLOCK_STATUS	include/aligeniesdk_json_api.h	124;"	d
+G_PARAMS_KEY_HIBERNATION_DELAY	include/aligeniesdk_json_api.h	133;"	d
+G_PARAMS_KEY_LED_STATUS	include/aligeniesdk_json_api.h	118;"	d
+G_PARAMS_KEY_LED_TARGET	include/aligeniesdk_json_api.h	117;"	d
+G_PARAMS_KEY_NETWORK_STATUS	include/aligeniesdk_json_api.h	103;"	d
+G_PARAMS_KEY_PLAYER_STATUS	include/aligeniesdk_json_api.h	97;"	d
+G_PARAMS_KEY_PLAY_MEDIA_PATH	include/aligeniesdk_json_api.h	80;"	d
+G_PARAMS_KEY_PLAY_PROMPT_PATH	include/aligeniesdk_json_api.h	89;"	d
+G_PARAMS_KEY_PLAY_PROMPT_VOLUME	include/aligeniesdk_json_api.h	90;"	d
+G_PARAMS_KEY_SYSTEM_STATUS	include/aligeniesdk_json_api.h	109;"	d
+G_PARAMS_KEY_VOLUME_STEP_LENGTH	include/aligeniesdk_json_api.h	48;"	d
+G_PARAMS_KEY_WIFI_SETUP_RESULT	include/aligeniesdk_json_api.h	146;"	d
+G_PARAMS_VALUE_BUTTON_NAME_ADD_FAVORITE	include/aligeniesdk_json_api.h	65;"	d
+G_PARAMS_VALUE_BUTTON_NAME_AI_START	include/aligeniesdk_json_api.h	59;"	d
+G_PARAMS_VALUE_BUTTON_NAME_AI_STOP	include/aligeniesdk_json_api.h	60;"	d
+G_PARAMS_VALUE_BUTTON_NAME_INTERCOM_START	include/aligeniesdk_json_api.h	63;"	d
+G_PARAMS_VALUE_BUTTON_NAME_INTERCOM_STOP	include/aligeniesdk_json_api.h	64;"	d
+G_PARAMS_VALUE_BUTTON_NAME_LED	include/aligeniesdk_json_api.h	68;"	d
+G_PARAMS_VALUE_BUTTON_NAME_NEXT	include/aligeniesdk_json_api.h	54;"	d
+G_PARAMS_VALUE_BUTTON_NAME_PLAYPAUSE	include/aligeniesdk_json_api.h	55;"	d
+G_PARAMS_VALUE_BUTTON_NAME_PLAY_FAVORITE	include/aligeniesdk_json_api.h	66;"	d
+G_PARAMS_VALUE_BUTTON_NAME_PLAY_INTERCOM	include/aligeniesdk_json_api.h	67;"	d
+G_PARAMS_VALUE_BUTTON_NAME_PLAY_MUSIC	include/aligeniesdk_json_api.h	56;"	d
+G_PARAMS_VALUE_BUTTON_NAME_PLAY_SINOLOGY	include/aligeniesdk_json_api.h	57;"	d
+G_PARAMS_VALUE_BUTTON_NAME_PLAY_STORY	include/aligeniesdk_json_api.h	58;"	d
+G_PARAMS_VALUE_BUTTON_NAME_PREV	include/aligeniesdk_json_api.h	53;"	d
+G_PARAMS_VALUE_BUTTON_NAME_TRANSLATE_START	include/aligeniesdk_json_api.h	61;"	d
+G_PARAMS_VALUE_BUTTON_NAME_TRANSLATE_STOP	include/aligeniesdk_json_api.h	62;"	d
+G_PARAMS_VALUE_BUTTON_NAME_VOLUME_DOWN	include/aligeniesdk_json_api.h	51;"	d
+G_PARAMS_VALUE_BUTTON_NAME_VOLUME_UP	include/aligeniesdk_json_api.h	50;"	d
+G_PARAMS_VALUE_BUTTON_NAME_WIFI_SETUP	include/aligeniesdk_json_api.h	52;"	d
+G_PARAMS_VALUE_CHILDLOCK_STATUS_OFF	include/aligeniesdk_json_api.h	126;"	d
+G_PARAMS_VALUE_CHILDLOCK_STATUS_ON	include/aligeniesdk_json_api.h	125;"	d
+G_PARAMS_VALUE_LED_STATUS_OFF	include/aligeniesdk_json_api.h	120;"	d
+G_PARAMS_VALUE_LED_STATUS_ON	include/aligeniesdk_json_api.h	119;"	d
+G_PARAMS_VALUE_NETWORK_STATUS_CONNECT	include/aligeniesdk_json_api.h	104;"	d
+G_PARAMS_VALUE_NETWORK_STATUS_DISCONNECT	include/aligeniesdk_json_api.h	105;"	d
+G_PARAMS_VALUE_PLAYER_STATUS_PAUSE	include/aligeniesdk_json_api.h	99;"	d
+G_PARAMS_VALUE_PLAYER_STATUS_PLAY	include/aligeniesdk_json_api.h	98;"	d
+G_PARAMS_VALUE_PLAYER_STATUS_STOP	include/aligeniesdk_json_api.h	100;"	d
+G_PARAMS_VALUE_SYSTEM_STATUS_STANDBY	include/aligeniesdk_json_api.h	110;"	d
+G_ROOT_KEY_JSONRPC	include/aligeniesdk_json_api.h	32;"	d
+G_ROOT_KEY_METHOD	include/aligeniesdk_json_api.h	34;"	d
+G_ROOT_KEY_PARAMS	include/aligeniesdk_json_api.h	35;"	d
+G_ROOT_VALUE_JSONRPC_VERSION	include/aligeniesdk_json_api.h	33;"	d
+G_ROOT_VALUE_METHOD_BATTERY	include/aligeniesdk_json_api.h	75;"	d
+G_ROOT_VALUE_METHOD_BUTTON	include/aligeniesdk_json_api.h	46;"	d
+G_ROOT_VALUE_METHOD_CHILDLOCK	include/aligeniesdk_json_api.h	42;"	d
+G_ROOT_VALUE_METHOD_CLOUD_READY	include/aligeniesdk_json_api.h	113;"	d
+G_ROOT_VALUE_METHOD_CONTROL_CHILDLOCK	include/aligeniesdk_json_api.h	123;"	d
+G_ROOT_VALUE_METHOD_CONTROL_GENIE_SPEAK	include/aligeniesdk_json_api.h	136;"	d
+G_ROOT_VALUE_METHOD_CONTROL_HIBERNATION	include/aligeniesdk_json_api.h	132;"	d
+G_ROOT_VALUE_METHOD_CONTROL_LED	include/aligeniesdk_json_api.h	116;"	d
+G_ROOT_VALUE_METHOD_CONTROL_RESET	include/aligeniesdk_json_api.h	129;"	d
+G_ROOT_VALUE_METHOD_ERASE_USER_DATA	include/aligeniesdk_json_api.h	149;"	d
+G_ROOT_VALUE_METHOD_HANDSHAKE	include/aligeniesdk_json_api.h	39;"	d
+G_ROOT_VALUE_METHOD_LED	include/aligeniesdk_json_api.h	71;"	d
+G_ROOT_VALUE_METHOD_NETWORK_STATUS	include/aligeniesdk_json_api.h	102;"	d
+G_ROOT_VALUE_METHOD_NEW_VOICE_MSG	include/aligeniesdk_json_api.h	152;"	d
+G_ROOT_VALUE_METHOD_PLAYER_PAUSE	include/aligeniesdk_json_api.h	83;"	d
+G_ROOT_VALUE_METHOD_PLAYER_RESUME	include/aligeniesdk_json_api.h	84;"	d
+G_ROOT_VALUE_METHOD_PLAYER_STATUS	include/aligeniesdk_json_api.h	94;"	d
+G_ROOT_VALUE_METHOD_PLAYER_STOP	include/aligeniesdk_json_api.h	85;"	d
+G_ROOT_VALUE_METHOD_PLAY_MEDIA	include/aligeniesdk_json_api.h	79;"	d
+G_ROOT_VALUE_METHOD_PLAY_PROMPT	include/aligeniesdk_json_api.h	88;"	d
+G_ROOT_VALUE_METHOD_PLAY_PROMPT_DONE	include/aligeniesdk_json_api.h	142;"	d
+G_ROOT_VALUE_METHOD_PLAY_TTS_DONE	include/aligeniesdk_json_api.h	139;"	d
+G_ROOT_VALUE_METHOD_SYSTEM_STATUS	include/aligeniesdk_json_api.h	108;"	d
+G_ROOT_VALUE_METHOD_VOICE_MSG_PLAYED	include/aligeniesdk_json_api.h	155;"	d
+G_ROOT_VALUE_METHOD_WIFI_SETUP_RESULT	include/aligeniesdk_json_api.h	145;"	d
+HANZI	include/mediamanager.h	85;"	d
+HWKEY_AI	include/keymanager.h	54;"	d
+HWKEY_CHARGE	include/keymanager.h	57;"	d
+HWKEY_FAVORITES	include/keymanager.h	50;"	d
+HWKEY_INTERCOM	include/keymanager.h	55;"	d
+HWKEY_INVALID	include/keymanager.h	58;"	d
+HWKEY_LED	include/keymanager.h	45;"	d
+HWKEY_MUSIC	include/keymanager.h	53;"	d
+HWKEY_NEXT	include/keymanager.h	48;"	d
+HWKEY_PLAYPAUSE	include/keymanager.h	47;"	d
+HWKEY_PREV	include/keymanager.h	46;"	d
+HWKEY_RESET	include/keymanager.h	56;"	d
+HWKEY_SINOLOGY	include/keymanager.h	51;"	d
+HWKEY_STORY	include/keymanager.h	52;"	d
+HWKEY_TRANSLATE	include/keymanager.h	49;"	d
+HWKEY_VOL_DOWN	include/keymanager.h	44;"	d
+HWKEY_VOL_UP	include/keymanager.h	43;"	d
+INCLUDE	makefile	/^INCLUDE := -I include \\$/;"	m
+INIT_LIST_HEAD	include/linux_list.h	43;"	d
+KEVENT_READ_SIZE	keyevent_reader.c	/^static const int KEVENT_READ_SIZE = sizeof(struct input_event);$/;"	v	file:
+KEYEVENT_COND_TIMEOUT_INTERVAL	include/keymanager.h	32;"	d
+KEYEVENT_DEVICE_0	keyevent_reader.c	28;"	d	file:
+KEYEVENT_DEVICE_1	keyevent_reader.c	29;"	d	file:
+KEYVALUE_KEY_DOWN	include/keymanager.h	37;"	d
+KEYVALUE_KEY_UP	include/keymanager.h	38;"	d
+KEYVALUE_LONG_PRESS	include/keymanager.h	36;"	d
+KEY_ALLOW_HANDLE_INTERVAL	include/keymanager.h	29;"	d
+KEY_ALLOW_HANDLE_VOICE_KEY_INTERVAL	include/keymanager.h	30;"	d
+LCTX	logic.c	/^LOGIC_CONTEXT_T LCTX = {0};$/;"	v
+LD	makefile	/^LD = $(CROSS_COMPILE)ld$/;"	m
+LDFLAGS	makefile	/^LDFLAGS := $/;"	m
+LED_COLOR_BLUE	include/lightmanager.h	33;"	d
+LED_COLOR_CYAN	include/lightmanager.h	35;"	d
+LED_COLOR_GREEN	include/lightmanager.h	32;"	d
+LED_COLOR_MEGENTA	include/lightmanager.h	36;"	d
+LED_COLOR_OFF	include/lightmanager.h	30;"	d
+LED_COLOR_RED	include/lightmanager.h	31;"	d
+LED_COLOR_T	include/lightmanager.h	/^typedef unsigned char LED_COLOR_T;$/;"	t
+LED_COLOR_WHITE	include/lightmanager.h	37;"	d
+LED_COLOR_YELLOW	include/lightmanager.h	34;"	d
+LED_CONTEXT_T	include/lightmanager.h	/^} LED_CONTEXT_T;$/;"	t	typeref:struct:__anon6
+LED_CTL_MSG_T	lightmanager.c	/^} LED_CTL_MSG_T;$/;"	t	typeref:struct:led_msg_t	file:
+LED_CTX	lightmanager.c	/^LED_CONTEXT_T LED_CTX = {0};$/;"	v
+LED_DURATION_BATTERY_ENERGY_LOW_BLINK	include/logic.h	37;"	d
+LED_DURATION_INTERVAL_GENIE_SPEAK_BLINK	include/logic.h	39;"	d
+LED_DURATION_INTERVAL_WIFI_SETUP_BLINK	include/logic.h	33;"	d
+LED_DURATION_KEY_PRESS_BLINK	include/logic.h	34;"	d
+LED_DURATION_NEW_VOICE_MESSAGE	include/logic.h	36;"	d
+LED_DURATION_WIFI_CONNECTED	include/logic.h	35;"	d
+LED_OFF	lightmanager.c	42;"	d	file:
+LED_ON	lightmanager.c	41;"	d	file:
+LIBS	makefile	/^LIBS    := -lpthread -lrt -laglog$/;"	m
+LIB_DIR	makefile	/^LIB_DIR:= .\/libs\/ $/;"	m
+LIST_HEAD	include/linux_list.h	40;"	d
+LIST_HEAD_INIT	include/linux_list.h	38;"	d
+LIST_POISON1	include/linux_list.h	31;"	d
+LIST_POISON2	include/linux_list.h	32;"	d
+LOG	include/libaglog.h	135;"	d
+LOGD	include/libaglog.h	139;"	d
+LOGE	include/libaglog.h	137;"	d
+LOGIC_CONTEXT_T	include/logic.h	/^} LOGIC_CONTEXT_T;$/;"	t	typeref:struct:__anon14
+LOGV	include/libaglog.h	140;"	d
+LOGW	include/libaglog.h	138;"	d
+LOG_COLOR_BG_BLACK	include/libaglog.h	104;"	d
+LOG_COLOR_BG_BLUE	include/libaglog.h	108;"	d
+LOG_COLOR_BG_DART_GREEN	include/libaglog.h	110;"	d
+LOG_COLOR_BG_GREEN	include/libaglog.h	106;"	d
+LOG_COLOR_BG_PURPLE	include/libaglog.h	109;"	d
+LOG_COLOR_BG_RED	include/libaglog.h	105;"	d
+LOG_COLOR_BG_WHITE	include/libaglog.h	111;"	d
+LOG_COLOR_BG_YELLOW	include/libaglog.h	107;"	d
+LOG_COLOR_CONTENT_BG	include/libaglog.h	131;"	d
+LOG_COLOR_CONTENT_FONT	include/libaglog.h	132;"	d
+LOG_COLOR_FONT_BLACK	include/libaglog.h	114;"	d
+LOG_COLOR_FONT_BLUE	include/libaglog.h	118;"	d
+LOG_COLOR_FONT_DARK_GREEN	include/libaglog.h	120;"	d
+LOG_COLOR_FONT_GREEN	include/libaglog.h	116;"	d
+LOG_COLOR_FONT_PURPLE	include/libaglog.h	119;"	d
+LOG_COLOR_FONT_RED	include/libaglog.h	115;"	d
+LOG_COLOR_FONT_WHITE	include/libaglog.h	121;"	d
+LOG_COLOR_FONT_YELLOW	include/libaglog.h	117;"	d
+LOG_COLOR_TAG_BG	include/libaglog.h	129;"	d
+LOG_COLOR_TAG_FONT	include/libaglog.h	130;"	d
+LOG_COLOR_TIME_BG	include/libaglog.h	127;"	d
+LOG_COLOR_TIME_FONT	include/libaglog.h	128;"	d
+LOG_LEVEL_ALL	include/libaglog.h	101;"	d
+LOG_LEVEL_DEBUG	include/libaglog.h	99;"	d
+LOG_LEVEL_ERROR	include/libaglog.h	97;"	d
+LOG_LEVEL_NONE	include/libaglog.h	96;"	d
+LOG_LEVEL_VERBOSE	include/libaglog.h	100;"	d
+LOG_LEVEL_WARN	include/libaglog.h	98;"	d
+LOG_TAG	backtrace.c	27;"	d	file:
+LOG_TAG	backtrace.c	28;"	d	file:
+LOG_TAG	batterymonitor.c	30;"	d	file:
+LOG_TAG	batterymonitor.c	31;"	d	file:
+LOG_TAG	genievendor.c	39;"	d	file:
+LOG_TAG	genievendor.c	40;"	d	file:
+LOG_TAG	include/libaglog.h	124;"	d
+LOG_TAG	include/mediamanager.h	56;"	d
+LOG_TAG	include/mediamanager.h	57;"	d
+LOG_TAG	jsonparser.c	31;"	d	file:
+LOG_TAG	jsonparser.c	32;"	d	file:
+LOG_TAG	keyevent_reader.c	26;"	d	file:
+LOG_TAG	keyevent_reader.c	27;"	d	file:
+LOG_TAG	keymanager.c	37;"	d	file:
+LOG_TAG	keymanager.c	38;"	d	file:
+LOG_TAG	lightmanager.c	34;"	d	file:
+LOG_TAG	lightmanager.c	35;"	d	file:
+LOG_TAG	logic.c	39;"	d	file:
+LOG_TAG	logic.c	40;"	d	file:
+LOG_TAG	mediamanager.c	37;"	d	file:
+LOG_TAG	mediamanager.c	38;"	d	file:
+LOG_TAG	socketmanager.c	36;"	d	file:
+LOG_TAG	socketmanager.c	37;"	d	file:
+MAXLEN	include/mediamanager.h	59;"	d
+MEDIA_AUTHOR_LENGTH_MAX	include/logic.h	42;"	d
+MEDIA_NAME_LENGTH_MAX	include/logic.h	41;"	d
+MEDIA_TYPE_E	include/mediamanager.h	/^} MEDIA_TYPE_E;$/;"	t	typeref:enum:__anon2
+MEM_ROOT_PATH	include/mediamanager.h	61;"	d
+M_TYPE_BATTERY_LOW_10	include/mediamanager.h	/^    M_TYPE_BATTERY_LOW_10,$/;"	e	enum:__anon2
+M_TYPE_BATTERY_LOW_20	include/mediamanager.h	/^    M_TYPE_BATTERY_LOW_20,$/;"	e	enum:__anon2
+M_TYPE_BATTERY_LOW_POWER_OFF	include/mediamanager.h	/^    M_TYPE_BATTERY_LOW_POWER_OFF,$/;"	e	enum:__anon2
+M_TYPE_FAVOURITE	include/mediamanager.h	/^    M_TYPE_FAVOURITE,$/;"	e	enum:__anon2
+M_TYPE_SINOLOGY	include/mediamanager.h	/^    M_TYPE_SINOLOGY,$/;"	e	enum:__anon2
+M_TYPE_SONG	include/mediamanager.h	/^    M_TYPE_SONG,$/;"	e	enum:__anon2
+M_TYPE_STORY	include/mediamanager.h	/^    M_TYPE_STORY,$/;"	e	enum:__anon2
+NETWORK_STATUS_E	include/logic.h	/^} NETWORK_STATUS_E;$/;"	t	typeref:enum:__anon10
+NM	makefile	/^NM = $(CROSS_COMPILE)nm$/;"	m
+NULL	include/genievendor.h	30;"	d
+NUM_KEVENT_FDS	keyevent_reader.c	32;"	d	file:
+OBJS	makefile	/^OBJS   := $(patsubst %.c,%.o,$(SOURCE))$/;"	m
+OBJ_DIR	makefile	/^OBJ_DIR:= $(shell pwd)$/;"	m
+OK	include/genievendor.h	40;"	d
+PLAYER_KEYCODE_CURRENT_CONTEXT	include/logic.h	/^typedef struct PLAYER_KEYCODE_CURRENT_CONTEXT{$/;"	s
+PLAYER_KEYCODE_CURRENT_CONTEX_T	include/logic.h	/^}PLAYER_KEYCODE_CURRENT_CONTEX_T;$/;"	t	typeref:struct:PLAYER_KEYCODE_CURRENT_CONTEXT
+PLAYER_PLAY_MODE_E	include/logic.h	/^}PLAYER_PLAY_MODE_E;$/;"	t	typeref:enum:__anon13
+PLAYER_SD_STATUS_CONTEXT	include/logic.h	/^typedef struct PLAYER_SD_STATUS_CONTEXT{$/;"	s
+PLAYER_SD_STATUS_CONTEX_T	include/logic.h	/^}PLAYER_SD_STATUS_CONTEX_T;     $/;"	t	typeref:struct:PLAYER_SD_STATUS_CONTEXT
+PLAYER_STATUS_CONTEXT	include/logic.h	/^typedef struct PLAYER_STATUS_CONTEXT{$/;"	s
+PLAYER_STATUS_CONTEX_T	include/logic.h	/^}PLAYER_STATUS_CONTEX_T;$/;"	t	typeref:struct:PLAYER_STATUS_CONTEXT
+PLAYER_STATUS_E	include/logic.h	/^} PLAYER_STATUS_E;$/;"	t	typeref:enum:__anon12
+PLAYER_USB_STATUS_CONTEXT	include/logic.h	/^typedef struct PLAYER_USB_STATUS_CONTEXT{$/;"	s
+PLAYER_USB_STATUS_CONTEX_T	include/logic.h	/^}PLAYER_USB_STATUS_CONTEX_T;       $/;"	t	typeref:struct:PLAYER_USB_STATUS_CONTEXT
+PLAY_DIR_NUM	include/mediamanager.h	60;"	d
+PT_Node	include/mediamanager.h	/^}T_Node, *PT_Node;$/;"	t	typeref:struct:filenode
+RANLIB	makefile	/^RANLIB = $(CROSS_COMPILE)ranlib$/;"	m
+REPORT_INTERVAL	batterymonitor.c	34;"	d	file:
+SCTX	socketmanager.c	/^SOCKET_CONTEXT_T SCTX;$/;"	v
+SDCARD_STATUS_E	include/logic.h	/^}SDCARD_STATUS_E;$/;"	t	typeref:enum:__anon8
+SDcardRefreshFlag	include/logic.h	/^    BOOL SDcardRefreshFlag;$/;"	m	struct:PLAYER_SD_STATUS_CONTEXT
+SOCKET_CONTEXT_T	include/socketmanager.h	/^} SOCKET_CONTEXT_T;$/;"	t	typeref:struct:__anon4
+SOCK_RECV	include/socketmanager.h	42;"	d
+SOCK_SEND	include/socketmanager.h	43;"	d
+SOURCE	makefile	/^SOURCE := $(foreach dir,$(DIRS),$(wildcard $(dir)\/*.c))$/;"	m
+STRIP	makefile	/^STRIP = $(CROSS_COMPILE)strip$/;"	m
+SYSTEM_STATUS_E	include/logic.h	/^} SYSTEM_STATUS_E;$/;"	t	typeref:enum:__anon11
+TARGET	makefile	/^TARGET  := genievendor$/;"	m
+TONE_ADD_FAV_FAIL	include/mediamanager.h	78;"	d
+TONE_ADD_FAV_SUC	include/mediamanager.h	77;"	d
+TONE_BATTERY_CHARING	include/mediamanager.h	72;"	d
+TONE_BATTERY_NEED_CHARGE	include/mediamanager.h	70;"	d
+TONE_BATTTERY_ENERGEY_NOT_ENOUGH	include/mediamanager.h	71;"	d
+TONE_CANCEL_FAV_FAIL	include/mediamanager.h	80;"	d
+TONE_CANCEL_FAV_SUC	include/mediamanager.h	79;"	d
+TONE_FILE_MUSIC	include/mediamanager.h	65;"	d
+TONE_FILE_SINOLOGY	include/mediamanager.h	66;"	d
+TONE_FILE_STORY	include/mediamanager.h	67;"	d
+TONE_NO_FAV	include/mediamanager.h	81;"	d
+TONE_PLEASE_CONNECT_NETWORK	include/mediamanager.h	74;"	d
+TRUE	include/genievendor.h	33;"	d
+TYPE_KEY	keyevent_reader.c	30;"	d	file:
+T_Node	include/mediamanager.h	/^}T_Node, *PT_Node;$/;"	t	typeref:struct:filenode
+UDiskPlugInFlag	include/logic.h	/^    BOOL UDiskPlugInFlag;$/;"	m	struct:PLAYER_USB_STATUS_CONTEXT
+USB_STATUS_E	include/logic.h	/^}USB_STATUS_E;$/;"	t	typeref:enum:__anon7
+VENDOR_CMD_LENGTH_MAX	include/aligeniesdk_json_api.h	29;"	d
+VOLUME_STEP_LENGTH	include/genievendor.h	44;"	d
+XIAOZIMU	include/mediamanager.h	87;"	d
+_BACKTRACE_H_	include/backtrace.h	14;"	d
+_BACKTRACE_IMPL_	backtrace.c	23;"	d	file:
+_BATTERY_MONITOR_H_	include/batterymonitor.h	13;"	d
+_BATTERY_MONITOR_IMPL_	batterymonitor.c	22;"	d	file:
+_BATTERY_MONITOR_IMPL_	usbmonitor.c	17;"	d	file:
+_GENIEVENDOR_H_	include/genievendor.h	13;"	d
+_GENIE_VENDOR_API_	include/aligeniesdk_json_api.h	17;"	d
+_JSON_PARSER_H_	include/jsonparser.h	13;"	d
+_JSON_PARSER_IMPL_	jsonparser.c	26;"	d	file:
+_KEYEVENT_READER_H_	include/keyevent_reader.h	2;"	d
+_KEYEVENT_READER_IMPL_	keyevent_reader.c	13;"	d	file:
+_KEY_MANAGER_H_	include/keymanager.h	13;"	d
+_KEY_MANAGER_IMPL_	keymanager.c	26;"	d	file:
+_LIBAGLOG_H_	include/libaglog.h	89;"	d
+_LIGHT_MANAGER_H_	include/lightmanager.h	13;"	d
+_LIGHT_MANAGER_IMPL_	lightmanager.c	24;"	d	file:
+_LOGIC_H_	include/logic.h	13;"	d
+_LOGIC_IMPL_	logic.c	28;"	d	file:
+_MEDIA_MANAGER_H_	include/mediamanager.h	13;"	d
+_MEDIA_MANAGER_IMPL_	mediamanager.c	30;"	d	file:
+_SOCKET_MANAGER_H_	include/socketmanager.h	13;"	d
+_SOCKET_MANAGER_IMPL_	socketmanager.c	24;"	d	file:
+_USB_MONITOR_H_	include/usbmonitor.h	12;"	d
+_USB_monitor_thread	usbmonitor.c	/^void* _USB_monitor_thread(void* arg){$/;"	f
+__DLIST_H	include/linux_list.h	2;"	d
+__list_add	include/linux_list.h	/^static inline void __list_add(struct list_head *new,  $/;"	f
+__list_del	include/linux_list.h	/^static inline void __list_del(struct list_head *prev, struct list_head *next)  $/;"	f
+__list_splice	include/linux_list.h	/^static inline void __list_splice(struct list_head *list,  $/;"	f
+_append_light_ctl_msg	lightmanager.c	/^static int _append_light_ctl_msg(LED_CONTEXT_T* LED_CTX, LED_COLOR_T color, int duration, char is_blink){$/;"	f	file:
+_atom_set_led_color	lightmanager.c	/^static int _atom_set_led_color(LED_CONTEXT_T* LED_CTX, LED_COLOR_T color){$/;"	f	file:
+_battery_monitor_thread	batterymonitor.c	/^void* _battery_monitor_thread(void* arg){$/;"	f
+_do_hibernation	logic.c	/^static void _do_hibernation(int signo, siginfo_t *info, void *context){$/;"	f	file:
+_handle_keyevent_offline	logic.c	/^static int _handle_keyevent_offline(AG_KEYCODE_E keycode){$/;"	f	file:
+_handle_keyevent_online	logic.c	/^static int _handle_keyevent_online(AG_KEYCODE_E keycode){$/;"	f	file:
+_json_handle_childlock_control	jsonparser.c	/^static int _json_handle_childlock_control(cJSON * root){$/;"	f	file:
+_json_handle_configuration_reset	jsonparser.c	/^static int _json_handle_configuration_reset(){$/;"	f	file:
+_json_handle_control_genie_speak	jsonparser.c	/^static int _json_handle_control_genie_speak(){$/;"	f	file:
+_json_handle_lamp_control	jsonparser.c	/^static int _json_handle_lamp_control(cJSON * root){$/;"	f	file:
+_json_handle_network_status_change	jsonparser.c	/^static int _json_handle_network_status_change(cJSON* root){$/;"	f	file:
+_json_handle_play_prompt_done	jsonparser.c	/^static int _json_handle_play_prompt_done(){$/;"	f	file:
+_json_handle_play_tts_done	jsonparser.c	/^static int _json_handle_play_tts_done(){$/;"	f	file:
+_json_handle_player_status_change	jsonparser.c	/^static int _json_handle_player_status_change(cJSON* root){$/;"	f	file:
+_json_handle_set_hibernation_control	jsonparser.c	/^static int _json_handle_set_hibernation_control(cJSON * root){$/;"	f	file:
+_json_handle_system_status_change	jsonparser.c	/^static int _json_handle_system_status_change(cJSON *root){$/;"	f	file:
+_json_handle_wifi_setup_result	jsonparser.c	/^static int _json_handle_wifi_setup_result(cJSON * root){$/;"	f	file:
+_keyevent_read_thread	keyevent_reader.c	/^void* _keyevent_read_thread(void* arg){$/;"	f
+_light_controller_thread	lightmanager.c	/^void* _light_controller_thread(void* arg){$/;"	f
+_logic_looper	logic.c	/^void* _logic_looper(void* arg){$/;"	f
+_pack_double_param_json	jsonparser.c	/^static int _pack_double_param_json(char *buf, const char *method, $/;"	f	file:
+_pack_none_param_json	jsonparser.c	/^static int _pack_none_param_json(char * buf, const char * method){$/;"	f	file:
+_pack_single_param_json	jsonparser.c	/^static int _pack_single_param_json(char* buf,$/;"	f	file:
+_parse_key_down	keymanager.c	/^static int _parse_key_down(int code)$/;"	f	file:
+_parse_key_longpress	keymanager.c	/^static int _parse_key_longpress(int code)$/;"	f	file:
+_parse_key_up	keymanager.c	/^static int _parse_key_up(int code)$/;"	f	file:
+_parse_keycode	keymanager.c	/^static int _parse_keycode(struct input_event* event){$/;"	f	file:
+_scan_sdcard_thread	mediamanager.c	/^void * _scan_sdcard_thread(void * arg)$/;"	f
+_send_battery_percent_status_to_engine	logic.c	/^static int _send_battery_percent_status_to_engine(const int percent){$/;"	f	file:
+_send_childlock_status_to_engine	logic.c	/^static int _send_childlock_status_to_engine(const char * status){$/;"	f	file:
+_send_handshake_to_engine	logic.c	/^static int _send_handshake_to_engine(){$/;"	f	file:
+_send_key_to_engine	logic.c	/^static int _send_key_to_engine(const char * keyname){$/;"	f	file:
+_send_led_status_to_engine	logic.c	/^static int _send_led_status_to_engine(const char * isLightOn){$/;"	f	file:
+_send_media_play_to_engine	logic.c	/^static int _send_media_play_to_engine(const char * path){$/;"	f	file:
+_send_player_pause_to_engine	logic.c	/^static int _send_player_pause_to_engine(){$/;"	f	file:
+_send_player_resume_to_engine	logic.c	/^static int _send_player_resume_to_engine(){$/;"	f	file:
+_send_player_stop_to_engine	logic.c	/^static int _send_player_stop_to_engine(){$/;"	f	file:
+_send_prompt_play_to_engine	logic.c	/^static int _send_prompt_play_to_engine(const char *path){ $/;"	f	file:
+_send_volume_adjust_key_to_engine	logic.c	/^static int _send_volume_adjust_key_to_engine(const char * keyname){$/;"	f	file:
+_socket_init	socketmanager.c	/^static int _socket_init(SOCKET_CONTEXT_T * ctx){$/;"	f	file:
+_socket_recv_thread	socketmanager.c	/^void* _socket_recv_thread(void * arg){$/;"	f
+add_mediapath_favourite	mediamanager.c	/^int add_mediapath_favourite(void)$/;"	f
+backtrace_init	backtrace.c	/^void backtrace_init(void)$/;"	f
+battery_monitor_start	batterymonitor.c	/^int battery_monitor_start(pthread_t* thread){$/;"	f
+battery_percent	include/logic.h	/^    int battery_percent;$/;"	m	struct:__anon14
+batterypthreadlock	batterymonitor.c	/^pthread_mutex_t batterypthreadlock;$/;"	v
+batterypthreadruncond	batterymonitor.c	/^pthread_cond_t  batterypthreadruncond;$/;"	v
+blue_fd	include/lightmanager.h	/^    int blue_fd;$/;"	m	struct:__anon6
+buffer	cJSON.c	/^typedef struct {char *buffer; int length; int offset; } printbuffer;$/;"	m	struct:__anon1	file:
+cJSON	include/cJSON.h	/^typedef struct cJSON {$/;"	s
+cJSON	include/cJSON.h	/^} cJSON;$/;"	t	typeref:struct:cJSON
+cJSON_AddBoolToObject	include/cJSON.h	137;"	d
+cJSON_AddFalseToObject	include/cJSON.h	136;"	d
+cJSON_AddItemReferenceToArray	cJSON.c	/^void	cJSON_AddItemReferenceToArray(cJSON *array, cJSON *item)						{cJSON_AddItemToArray(array,create_reference(item));}$/;"	f
+cJSON_AddItemReferenceToObject	cJSON.c	/^void	cJSON_AddItemReferenceToObject(cJSON *object,const char *string,cJSON *item)	{cJSON_AddItemToObject(object,string,create_reference(item));}$/;"	f
+cJSON_AddItemToArray	cJSON.c	/^void   cJSON_AddItemToArray(cJSON *array, cJSON *item)						{cJSON *c=array->child;if (!item) return; if (!c) {array->child=item;} else {while (c && c->next) c=c->next; suffix_object(c,item);}}$/;"	f
+cJSON_AddItemToObject	cJSON.c	/^void   cJSON_AddItemToObject(cJSON *object,const char *string,cJSON *item)	{if (!item) return; if (item->string) cJSON_free(item->string);item->string=cJSON_strdup(string);cJSON_AddItemToArray(object,item);}$/;"	f
+cJSON_AddItemToObjectCS	cJSON.c	/^void   cJSON_AddItemToObjectCS(cJSON *object,const char *string,cJSON *item)	{if (!item) return; if (!(item->type&cJSON_StringIsConst) && item->string) cJSON_free(item->string);item->string=(char*)string;item->type|=cJSON_StringIsConst;cJSON_AddItemToArray(object,item);}$/;"	f
+cJSON_AddNullToObject	include/cJSON.h	134;"	d
+cJSON_AddNumberToObject	include/cJSON.h	138;"	d
+cJSON_AddStringToObject	include/cJSON.h	139;"	d
+cJSON_AddTrueToObject	include/cJSON.h	135;"	d
+cJSON_Array	include/cJSON.h	37;"	d
+cJSON_CreateArray	cJSON.c	/^cJSON *cJSON_CreateArray(void)					{cJSON *item=cJSON_New_Item();if(item)item->type=cJSON_Array;return item;}$/;"	f
+cJSON_CreateBool	cJSON.c	/^cJSON *cJSON_CreateBool(int b)					{cJSON *item=cJSON_New_Item();if(item)item->type=b?cJSON_True:cJSON_False;return item;}$/;"	f
+cJSON_CreateDoubleArray	cJSON.c	/^cJSON *cJSON_CreateDoubleArray(const double *numbers,int count)	{int i;cJSON *n=0,*p=0,*a=cJSON_CreateArray();for(i=0;a && i<count;i++){n=cJSON_CreateNumber(numbers[i]);if(!i)a->child=n;else suffix_object(p,n);p=n;}return a;}$/;"	f
+cJSON_CreateFalse	cJSON.c	/^cJSON *cJSON_CreateFalse(void)					{cJSON *item=cJSON_New_Item();if(item)item->type=cJSON_False;return item;}$/;"	f
+cJSON_CreateFloatArray	cJSON.c	/^cJSON *cJSON_CreateFloatArray(const float *numbers,int count)	{int i;cJSON *n=0,*p=0,*a=cJSON_CreateArray();for(i=0;a && i<count;i++){n=cJSON_CreateNumber(numbers[i]);if(!i)a->child=n;else suffix_object(p,n);p=n;}return a;}$/;"	f
+cJSON_CreateIntArray	cJSON.c	/^cJSON *cJSON_CreateIntArray(const int *numbers,int count)		{int i;cJSON *n=0,*p=0,*a=cJSON_CreateArray();for(i=0;a && i<count;i++){n=cJSON_CreateNumber(numbers[i]);if(!i)a->child=n;else suffix_object(p,n);p=n;}return a;}$/;"	f
+cJSON_CreateNull	cJSON.c	/^cJSON *cJSON_CreateNull(void)					{cJSON *item=cJSON_New_Item();if(item)item->type=cJSON_NULL;return item;}$/;"	f
+cJSON_CreateNumber	cJSON.c	/^cJSON *cJSON_CreateNumber(double num)			{cJSON *item=cJSON_New_Item();if(item){item->type=cJSON_Number;item->valuedouble=num;item->valueint=(int)num;}return item;}$/;"	f
+cJSON_CreateObject	cJSON.c	/^cJSON *cJSON_CreateObject(void)					{cJSON *item=cJSON_New_Item();if(item)item->type=cJSON_Object;return item;}$/;"	f
+cJSON_CreateString	cJSON.c	/^cJSON *cJSON_CreateString(const char *string)	{cJSON *item=cJSON_New_Item();if(item){item->type=cJSON_String;item->valuestring=cJSON_strdup(string);}return item;}$/;"	f
+cJSON_CreateStringArray	cJSON.c	/^cJSON *cJSON_CreateStringArray(const char **strings,int count)	{int i;cJSON *n=0,*p=0,*a=cJSON_CreateArray();for(i=0;a && i<count;i++){n=cJSON_CreateString(strings[i]);if(!i)a->child=n;else suffix_object(p,n);p=n;}return a;}$/;"	f
+cJSON_CreateTrue	cJSON.c	/^cJSON *cJSON_CreateTrue(void)					{cJSON *item=cJSON_New_Item();if(item)item->type=cJSON_True;return item;}$/;"	f
+cJSON_Delete	cJSON.c	/^void cJSON_Delete(cJSON *c)$/;"	f
+cJSON_DeleteItemFromArray	cJSON.c	/^void   cJSON_DeleteItemFromArray(cJSON *array,int which)			{cJSON_Delete(cJSON_DetachItemFromArray(array,which));}$/;"	f
+cJSON_DeleteItemFromObject	cJSON.c	/^void   cJSON_DeleteItemFromObject(cJSON *object,const char *string) {cJSON_Delete(cJSON_DetachItemFromObject(object,string));}$/;"	f
+cJSON_DetachItemFromArray	cJSON.c	/^cJSON *cJSON_DetachItemFromArray(cJSON *array,int which)			{cJSON *c=array->child;while (c && which>0) c=c->next,which--;if (!c) return 0;$/;"	f
+cJSON_DetachItemFromObject	cJSON.c	/^cJSON *cJSON_DetachItemFromObject(cJSON *object,const char *string) {int i=0;cJSON *c=object->child;while (c && cJSON_strcasecmp(c->string,string)) i++,c=c->next;if (c) return cJSON_DetachItemFromArray(object,i);return 0;}$/;"	f
+cJSON_Duplicate	cJSON.c	/^cJSON *cJSON_Duplicate(cJSON *item,int recurse)$/;"	f
+cJSON_False	include/cJSON.h	32;"	d
+cJSON_GetArrayItem	cJSON.c	/^cJSON *cJSON_GetArrayItem(cJSON *array,int item)				{cJSON *c=array->child;  while (c && item>0) item--,c=c->next; return c;}$/;"	f
+cJSON_GetArraySize	cJSON.c	/^int    cJSON_GetArraySize(cJSON *array)							{cJSON *c=array->child;int i=0;while(c)i++,c=c->next;return i;}$/;"	f
+cJSON_GetErrorPtr	cJSON.c	/^const char *cJSON_GetErrorPtr(void) {return ep;}$/;"	f
+cJSON_GetObjectItem	cJSON.c	/^cJSON *cJSON_GetObjectItem(cJSON *object,const char *string)	{cJSON *c=object->child; while (c && cJSON_strcasecmp(c->string,string)) c=c->next; return c;}$/;"	f
+cJSON_Hooks	include/cJSON.h	/^typedef struct cJSON_Hooks {$/;"	s
+cJSON_Hooks	include/cJSON.h	/^} cJSON_Hooks;$/;"	t	typeref:struct:cJSON_Hooks
+cJSON_InitHooks	cJSON.c	/^void cJSON_InitHooks(cJSON_Hooks* hooks)$/;"	f
+cJSON_InsertItemInArray	cJSON.c	/^void   cJSON_InsertItemInArray(cJSON *array,int which,cJSON *newitem)		{cJSON *c=array->child;while (c && which>0) c=c->next,which--;if (!c) {cJSON_AddItemToArray(array,newitem);return;}$/;"	f
+cJSON_IsReference	include/cJSON.h	40;"	d
+cJSON_Minify	cJSON.c	/^void cJSON_Minify(char *json)$/;"	f
+cJSON_NULL	include/cJSON.h	34;"	d
+cJSON_New_Item	cJSON.c	/^static cJSON *cJSON_New_Item(void)$/;"	f	file:
+cJSON_Number	include/cJSON.h	35;"	d
+cJSON_Object	include/cJSON.h	38;"	d
+cJSON_Parse	cJSON.c	/^cJSON *cJSON_Parse(const char *value) {return cJSON_ParseWithOpts(value,0,0);}$/;"	f
+cJSON_ParseWithOpts	cJSON.c	/^cJSON *cJSON_ParseWithOpts(const char *value,const char **return_parse_end,int require_null_terminated)$/;"	f
+cJSON_Print	cJSON.c	/^char *cJSON_Print(cJSON *item)				{return print_value(item,0,1,0);}$/;"	f
+cJSON_PrintBuffered	cJSON.c	/^char *cJSON_PrintBuffered(cJSON *item,int prebuffer,int fmt)$/;"	f
+cJSON_PrintUnformatted	cJSON.c	/^char *cJSON_PrintUnformatted(cJSON *item)	{return print_value(item,0,0,0);}$/;"	f
+cJSON_ReplaceItemInArray	cJSON.c	/^void   cJSON_ReplaceItemInArray(cJSON *array,int which,cJSON *newitem)		{cJSON *c=array->child;while (c && which>0) c=c->next,which--;if (!c) return;$/;"	f
+cJSON_ReplaceItemInObject	cJSON.c	/^void   cJSON_ReplaceItemInObject(cJSON *object,const char *string,cJSON *newitem){int i=0;cJSON *c=object->child;while(c && cJSON_strcasecmp(c->string,string))i++,c=c->next;if(c){newitem->string=cJSON_strdup(string);cJSON_ReplaceItemInArray(object,i,newitem);}}$/;"	f
+cJSON_SetIntValue	include/cJSON.h	142;"	d
+cJSON_SetNumberValue	include/cJSON.h	143;"	d
+cJSON_String	include/cJSON.h	36;"	d
+cJSON_StringIsConst	include/cJSON.h	41;"	d
+cJSON_True	include/cJSON.h	33;"	d
+cJSON__h	include/cJSON.h	24;"	d
+cJSON_free	cJSON.c	/^static void (*cJSON_free)(void *ptr) = free;$/;"	v	file:
+cJSON_malloc	cJSON.c	/^static void *(*cJSON_malloc)(size_t sz) = malloc;$/;"	v	file:
+cJSON_strcasecmp	cJSON.c	/^static int cJSON_strcasecmp(const char *s1,const char *s2)$/;"	f	file:
+cJSON_strdup	cJSON.c	/^static char* cJSON_strdup(const char* str)$/;"	f	file:
+cable_status	include/logic.h	/^    CHARGE_STATUS_E cable_status;$/;"	m	struct:PLAYER_USB_STATUS_CONTEXT
+child	include/cJSON.h	/^	struct cJSON *child;		\/* An array or object item will have a child pointer pointing to a chain of the items in the array\/object. *\/$/;"	m	struct:cJSON	typeref:struct:cJSON::cJSON
+clean_list	mediamanager.c	/^void clean_list(struct list_head* head)$/;"	f
+color	lightmanager.c	/^    unsigned char color;$/;"	m	struct:led_msg_t	file:
+cond	lightmanager.c	/^pthread_cond_t cond = PTHREAD_COND_INITIALIZER;$/;"	v
+container_of	include/linux_list.h	23;"	d
+createDir	mediamanager.c	/^static void createDir(void)$/;"	f	file:
+create_reference	cJSON.c	/^static cJSON *create_reference(cJSON *item) {cJSON *ref=cJSON_New_Item();if (!ref) return 0;memcpy(ref,item,sizeof(cJSON));ref->string=0;ref->type|=cJSON_IsReference;ref->next=ref->prev=0;return ref;}$/;"	f	file:
+del_mediapath_favourite	mediamanager.c	/^int del_mediapath_favourite(void)$/;"	f
+dump	backtrace.c	/^void dump(int signo)$/;"	f
+duration	lightmanager.c	/^    int duration;$/;"	m	struct:led_msg_t	file:
+ensure	cJSON.c	/^static char* ensure(printbuffer *p,int needed)$/;"	f	file:
+ep	cJSON.c	/^static const char *ep;$/;"	v	file:
+eventcode	include/logic.h	/^    int eventcode;    $/;"	m	struct:PLAYER_KEYCODE_CURRENT_CONTEXT
+favourite_headnode	mediamanager.c	/^struct list_head *favourite_headnode = NULL;$/;"	v	typeref:struct:list_head
+filenode	include/mediamanager.h	/^typedef struct filenode{$/;"	s
+firstByteMark	cJSON.c	/^static const unsigned char firstByteMark[7] = { 0x00, 0x00, 0xC0, 0xE0, 0xF0, 0xF8, 0xFC };$/;"	v	file:
+free_fn	include/cJSON.h	/^      void (*free_fn)(void *ptr);$/;"	m	struct:cJSON_Hooks
+fullname	include/mediamanager.h	/^	char *fullname;$/;"	m	struct:filenode
+gPlayListHead	mediamanager.c	/^struct list_head *gPlayListHead[PLAY_DIR_NUM];$/;"	v	typeref:struct:list_head
+g_kevent_fds	keyevent_reader.c	/^static int g_kevent_fds[NUM_KEVENT_FDS] = {0};$/;"	v	file:
+g_last_handle_timestamp	keymanager.c	/^static long g_last_handle_timestamp = 0;$/;"	v	file:
+g_long_press	keymanager.c	/^static int g_long_press = 0;$/;"	v	file:
+g_msg_head	lightmanager.c	/^LED_CTL_MSG_T* g_msg_head;$/;"	v
+g_msg_list_length	lightmanager.c	/^int g_msg_list_length = 0;$/;"	v
+g_msg_tail	lightmanager.c	/^LED_CTL_MSG_T* g_msg_tail;$/;"	v
+g_voice_started	keymanager.c	/^static int g_voice_started = 0;$/;"	v	file:
+get_media_path_by_type	mediamanager.c	/^int get_media_path_by_type(char** path, MEDIA_TYPE_E type)$/;"	f
+get_media_path_next	mediamanager.c	/^int get_media_path_next(char** path)$/;"	f
+get_media_path_previous	mediamanager.c	/^int get_media_path_previous(char** path)$/;"	f
+get_num_from_medianame	mediamanager.c	/^static int get_num_from_medianame(const char *medianame)$/;"	f	file:
+get_player_media_type	mediamanager.c	/^int get_player_media_type(void){$/;"	f
+get_sdcard_scanstatus	mediamanager.c	/^int get_sdcard_scanstatus(void)$/;"	f
+green_fd	include/lightmanager.h	/^    int green_fd;$/;"	m	struct:__anon6
+handle_engine_json	jsonparser.c	/^int handle_engine_json(cJSON* root){$/;"	f
+headnode	mediamanager.c	/^struct list_head *headnode;$/;"	v	typeref:struct:list_head
+hibernation_delay_sec	include/logic.h	/^    int hibernation_delay_sec;$/;"	m	struct:__anon14
+id	lightmanager.c	/^    char id;$/;"	m	struct:led_msg_t	file:
+init_list	mediamanager.c	/^static void init_list(struct list_head **p)$/;"	f	file:
+insert_by_order	mediamanager.c	/^static int insert_by_order(const char *medianame, int length, struct list_head *head, int NoZimu)$/;"	f	file:
+is_battert_per10_notified	include/logic.h	/^    BOOL is_battert_per10_notified;$/;"	m	struct:__anon14
+is_battert_per20_notified	include/logic.h	/^    BOOL is_battert_per20_notified;$/;"	m	struct:__anon14
+is_blink	lightmanager.c	/^    char is_blink;$/;"	m	struct:led_msg_t	file:
+is_blinking	include/lightmanager.h	/^    BOOL is_blinking;$/;"	m	struct:__anon6
+is_childlock_on	include/logic.h	/^    BOOL is_childlock_on;$/;"	m	struct:__anon14
+is_favouritFile_null	mediamanager.c	/^static int is_favouritFile_null(const char *path)$/;"	f	file:
+is_favourite_empty	include/logic.h	/^	BOOL is_favourite_empty;$/;"	m	struct:__anon14
+is_genie_speak_processing	include/logic.h	/^    BOOL is_genie_speak_processing;$/;"	m	struct:__anon14
+is_handshake_with_engine_done	include/logic.h	/^    BOOL is_handshake_with_engine_done;$/;"	m	struct:__anon14
+is_light_in_process	include/lightmanager.h	/^    BOOL is_light_in_process;$/;"	m	struct:__anon6
+is_light_on_hold	include/lightmanager.h	/^    BOOL is_light_on_hold;$/;"	m	struct:__anon6
+is_music_empty	include/logic.h	/^	BOOL is_music_empty;$/;"	m	struct:__anon14
+is_new_voice_msg_notifing	include/logic.h	/^    BOOL is_new_voice_msg_notifing;$/;"	m	struct:__anon14
+is_poweron_keypress_lock	include/logic.h	/^    BOOL is_poweron_keypress_lock;$/;"	m	struct:__anon14
+is_running_keypress_lock	include/logic.h	/^    BOOL is_running_keypress_lock;$/;"	m	struct:__anon14
+is_send_sock_ready	include/socketmanager.h	/^    unsigned short is_send_sock_ready;$/;"	m	struct:__anon4
+is_sinology_empty	include/logic.h	/^	BOOL is_sinology_empty;$/;"	m	struct:__anon14
+is_story_empty	include/logic.h	/^	BOOL is_story_empty;$/;"	m	struct:__anon14
+json_pack_battery_status	jsonparser.c	/^int json_pack_battery_status(char* buf, const int percent){$/;"	f
+json_pack_childlock_status	jsonparser.c	/^int json_pack_childlock_status(char *buf, const char* status){$/;"	f
+json_pack_handshake	jsonparser.c	/^int json_pack_handshake(char * buf){$/;"	f
+json_pack_keyevent	jsonparser.c	/^int json_pack_keyevent(char* buf, const char* buttonName){$/;"	f
+json_pack_led_status	jsonparser.c	/^int json_pack_led_status(char* buf, const char * status){$/;"	f
+json_pack_media_play	jsonparser.c	/^int json_pack_media_play(char * buf, const char * path){$/;"	f
+json_pack_player_pause	jsonparser.c	/^int json_pack_player_pause(char * buf){$/;"	f
+json_pack_player_resume	jsonparser.c	/^int json_pack_player_resume(char * buf){$/;"	f
+json_pack_player_stop	jsonparser.c	/^int json_pack_player_stop(char * buf){$/;"	f
+json_pack_prompt_play	jsonparser.c	/^int json_pack_prompt_play(char *buf,const char *path){$/;"	f
+json_pack_volume_adjust	jsonparser.c	/^int json_pack_volume_adjust(char *buf, const char *buttonName, int step_length){$/;"	f
+keycode	include/logic.h	/^    int keycode;$/;"	m	struct:PLAYER_KEYCODE_CURRENT_CONTEXT
+keyevent_callback	keymanager.c	/^void keyevent_callback(struct input_event* event){$/;"	f
+keyevent_check	keymanager.c	/^int keyevent_check(struct input_event* event){$/;"	f
+keyevent_reader_init	keyevent_reader.c	/^int keyevent_reader_init(pthread_t* thread){$/;"	f
+keymanager_start	keymanager.c	/^int keymanager_start(pthread_t* thread){$/;"	f
+keypthreadlock	keyevent_reader.c	/^pthread_mutex_t keypthreadlock;$/;"	v
+keypthreadruncond	keyevent_reader.c	/^pthread_cond_t  keypthreadruncond;$/;"	v
+led_msg_t	lightmanager.c	/^typedef struct led_msg_t{$/;"	s	file:
+length	cJSON.c	/^typedef struct {char *buffer; int length; int offset; } printbuffer;$/;"	m	struct:__anon1	file:
+light_hold_color	include/lightmanager.h	/^    LED_COLOR_T light_hold_color;$/;"	m	struct:__anon6
+light_manager_start	lightmanager.c	/^int light_manager_start(pthread_t * thread){$/;"	f
+light_off	lightmanager.c	/^int light_off(LED_CONTEXT_T* LED_CTX){$/;"	f
+light_on	lightmanager.c	/^int light_on(LED_CONTEXT_T* LED_CTX, LED_COLOR_T color){$/;"	f
+light_on_blink_start	lightmanager.c	/^int light_on_blink_start(LED_CONTEXT_T* LED_CTX, LED_COLOR_T color, int duration){$/;"	f
+light_on_blink_stop	lightmanager.c	/^int light_on_blink_stop(LED_CONTEXT_T* LED_CTX){$/;"	f
+light_on_duration	lightmanager.c	/^int light_on_duration(LED_CONTEXT_T* LED_CTX, LED_COLOR_T color, int duration){$/;"	f
+light_set_hold_color	lightmanager.c	/^int light_set_hold_color(LED_CONTEXT_T* LED_CTX,  unsigned char hold_color){$/;"	f
+light_try_set_hold	lightmanager.c	/^int light_try_set_hold(LED_CONTEXT_T* LED_CTX, BOOL is_on_hold){$/;"	f
+linecpy	usbmonitor.c	/^char *linecpy(char *strDest, const char *strSrc, int bufSize)$/;"	f
+list	include/mediamanager.h	/^	struct list_head list;$/;"	m	struct:filenode	typeref:struct:filenode::list_head
+list_add	include/linux_list.h	/^static inline void list_add(struct list_head *new, struct list_head *head)  $/;"	f
+list_add_tail	include/linux_list.h	/^static inline void list_add_tail(struct list_head *new, struct list_head *head)  $/;"	f
+list_del	include/linux_list.h	/^static inline void list_del(struct list_head *entry)  $/;"	f
+list_del_init	include/linux_list.h	/^static inline void list_del_init(struct list_head *entry)  $/;"	f
+list_empty	include/linux_list.h	/^static inline int list_empty(struct list_head *head)  $/;"	f
+list_entry	include/linux_list.h	204;"	d
+list_for_each	include/linux_list.h	212;"	d
+list_for_each_entry	include/linux_list.h	240;"	d
+list_for_each_entry_safe	include/linux_list.h	252;"	d
+list_for_each_prev	include/linux_list.h	220;"	d
+list_for_each_safe	include/linux_list.h	230;"	d
+list_head	include/linux_list.h	/^struct list_head {  $/;"	s
+list_move	include/linux_list.h	/^static inline void list_move(struct list_head *list,  $/;"	f
+list_move_tail	include/linux_list.h	/^static inline void list_move_tail(struct list_head *list,  $/;"	f
+list_splice	include/linux_list.h	/^static inline void list_splice(struct list_head *list, struct list_head *head)  $/;"	f
+list_splice_init	include/linux_list.h	/^static inline void list_splice_init(struct list_head *list,  $/;"	f
+logic_handle_battery_percent	logic.c	/^int logic_handle_battery_percent(LOGIC_CONTEXT_T * CTX, int percent){$/;"	f
+logic_handle_charge	logic.c	/^int logic_handle_charge(){$/;"	f
+logic_handle_childlock_control	logic.c	/^int logic_handle_childlock_control(int isOn){$/;"	f
+logic_handle_cloud_ready	logic.c	/^int logic_handle_cloud_ready(){$/;"	f
+logic_handle_config_reset	logic.c	/^int logic_handle_config_reset(){$/;"	f
+logic_handle_factory_reset	logic.c	/^int logic_handle_factory_reset(){$/;"	f
+logic_handle_genie_speak_led_control	logic.c	/^int logic_handle_genie_speak_led_control(){$/;"	f
+logic_handle_hibernationTime_read	logic.c	/^int logic_handle_hibernationTime_read()$/;"	f
+logic_handle_hibernationTime_save	logic.c	/^int logic_handle_hibernationTime_save(const int delaySec)$/;"	f
+logic_handle_hibernationTime_start_read	logic.c	/^int logic_handle_hibernationTime_start_read()$/;"	f
+logic_handle_hibernation_control	logic.c	/^int logic_handle_hibernation_control(int delaySec){$/;"	f
+logic_handle_keyevent	logic.c	/^int logic_handle_keyevent(LOGIC_CONTEXT_T * CTX, AG_KEYCODE_E keycode){$/;"	f
+logic_handle_led_control	logic.c	/^int logic_handle_led_control(int isOn){$/;"	f
+logic_handle_network_status	logic.c	/^int logic_handle_network_status(LOGIC_CONTEXT_T * CTX, NETWORK_STATUS_E status){$/;"	f
+logic_handle_new_voice_message	logic.c	/^int logic_handle_new_voice_message(){$/;"	f
+logic_handle_play_prompt_done	logic.c	/^int logic_handle_play_prompt_done(){$/;"	f
+logic_handle_play_tts_done	logic.c	/^int logic_handle_play_tts_done(){$/;"	f
+logic_handle_player_status	logic.c	/^int logic_handle_player_status(LOGIC_CONTEXT_T * CTX, char* name, char* author, PLAYER_STATUS_E status){$/;"	f
+logic_handle_sd_status_change	logic.c	/^int logic_handle_sd_status_change(LOGIC_CONTEXT_T *CTX,SDCARD_STATUS_E status){$/;"	f
+logic_handle_system_status	logic.c	/^int logic_handle_system_status(LOGIC_CONTEXT_T * CTX, SYSTEM_STATUS_E status){$/;"	f
+logic_handle_usb_status_change	logic.c	/^int logic_handle_usb_status_change(LOGIC_CONTEXT_T *CTX,USB_STATUS_E status){       $/;"	f
+logic_handle_voice_message_played	logic.c	/^int logic_handle_voice_message_played(){$/;"	f
+logic_handle_wifi_setup_result	logic.c	/^int logic_handle_wifi_setup_result(){$/;"	f
+logic_init	logic.c	/^int logic_init(pthread_t * thread){$/;"	f
+logic_usb_pulginkey_detect	logic.c	/^int logic_usb_pulginkey_detect(void){$/;"	f
+main	genievendor.c	/^int main(int argc, char** argv){$/;"	f
+malloc_fn	include/cJSON.h	/^      void *(*malloc_fn)(size_t sz);$/;"	m	struct:cJSON_Hooks
+media_author	include/logic.h	/^    char media_author[MEDIA_AUTHOR_LENGTH_MAX];$/;"	m	struct:__anon14
+media_manager_init	mediamanager.c	/^int media_manager_init(pthread_t* thread)$/;"	f
+media_name	include/logic.h	/^    char media_name[MEDIA_NAME_LENGTH_MAX];$/;"	m	struct:__anon14
+msgid	include/lightmanager.h	/^    char msgid;$/;"	m	struct:__anon6
+music_headnode	mediamanager.c	/^struct list_head *music_headnode = NULL;$/;"	v	typeref:struct:list_head
+mut	lightmanager.c	/^pthread_mutex_t mut = PTHREAD_MUTEX_INITIALIZER;$/;"	v
+network_status	include/logic.h	/^    NETWORK_STATUS_E network_status;$/;"	m	struct:__anon14
+next	include/cJSON.h	/^	struct cJSON *next,*prev;	\/* next\/prev allow you to walk array\/object chains. Alternatively, use GetArraySize\/GetArrayItem\/GetObjectItem *\/$/;"	m	struct:cJSON	typeref:struct:cJSON::cJSON
+next	include/linux_list.h	/^    struct list_head *next, *prev;  $/;"	m	struct:list_head	typeref:struct:list_head::list_head
+next	lightmanager.c	/^    struct led_msg_t * next;$/;"	m	struct:led_msg_t	typeref:struct:led_msg_t::led_msg_t	file:
+offset	cJSON.c	/^typedef struct {char *buffer; int length; int offset; } printbuffer;$/;"	m	struct:__anon1	file:
+offsetof	include/linux_list.h	21;"	d
+operate_is_favouriteFile_empty	mediamanager.c	/^int operate_is_favouriteFile_empty(void)$/;"	f
+operate_mediapath_favourite	mediamanager.c	/^int operate_mediapath_favourite(void)   $/;"	f
+parse_array	cJSON.c	/^static const char *parse_array(cJSON *item,const char *value)$/;"	f	file:
+parse_hex4	cJSON.c	/^static unsigned parse_hex4(const char *str)$/;"	f	file:
+parse_number	cJSON.c	/^static const char *parse_number(cJSON *item,const char *num)$/;"	f	file:
+parse_object	cJSON.c	/^static const char *parse_object(cJSON *item,const char *value)$/;"	f	file:
+parse_string	cJSON.c	/^static const char *parse_string(cJSON *item,const char *str)$/;"	f	file:
+parse_value	cJSON.c	/^static const char *parse_value(cJSON *item,const char *value)$/;"	f	file:
+playDir	mediamanager.c	/^const char *playDir[PLAY_DIR_NUM] = {$/;"	v
+playDirNum	mediamanager.c	/^int playDirNum = -1;$/;"	v
+playListDelete	mediamanager.c	/^void playListDelete(void)$/;"	f
+playListInit	mediamanager.c	/^int playListInit(void)$/;"	f
+player_current_opcode	include/logic.h	/^    PLAYER_KEYCODE_CURRENT_CONTEX_T player_current_opcode;$/;"	m	struct:PLAYER_STATUS_CONTEXT
+player_mediatype	include/logic.h	/^    MEDIA_TYPE_E player_mediatype;$/;"	m	struct:PLAYER_STATUS_CONTEXT
+player_playmode	include/logic.h	/^ PLAYER_PLAY_MODE_E player_playmode;$/;"	m	struct:PLAYER_STATUS_CONTEXT
+player_sd_status_ctx	include/logic.h	/^    PLAYER_SD_STATUS_CONTEX_T   player_sd_status_ctx;$/;"	m	struct:__anon14
+player_status	include/logic.h	/^ PLAYER_STATUS_E player_status;           $/;"	m	struct:PLAYER_STATUS_CONTEXT
+player_status_ctx	include/logic.h	/^    PLAYER_STATUS_CONTEX_T player_status_ctx; $/;"	m	struct:__anon14
+player_usb_status_ctx	include/logic.h	/^    PLAYER_USB_STATUS_CONTEX_T  player_usb_status_ctx; $/;"	m	struct:__anon14
+playlist_head	mediamanager.c	/^struct list_head *playlist_head;$/;"	v	typeref:struct:list_head
+pow2gt	cJSON.c	/^static int pow2gt (int x)	{	--x;	x|=x>>1;	x|=x>>2;	x|=x>>4;	x|=x>>8;	x|=x>>16;	return x+1;	}$/;"	f	file:
+prev	include/cJSON.h	/^	struct cJSON *next,*prev;	\/* next\/prev allow you to walk array\/object chains. Alternatively, use GetArraySize\/GetArrayItem\/GetObjectItem *\/$/;"	m	struct:cJSON	typeref:struct:cJSON::
+prev	include/linux_list.h	/^    struct list_head *next, *prev;  $/;"	m	struct:list_head	typeref:struct:list_head::
+print_array	cJSON.c	/^static char *print_array(cJSON *item,int depth,int fmt,printbuffer *p)$/;"	f	file:
+print_number	cJSON.c	/^static char *print_number(cJSON *item,printbuffer *p)$/;"	f	file:
+print_object	cJSON.c	/^static char *print_object(cJSON *item,int depth,int fmt,printbuffer *p)$/;"	f	file:
+print_string	cJSON.c	/^static char *print_string(cJSON *item,printbuffer *p)	{return print_string_ptr(item->valuestring,p);}$/;"	f	file:
+print_string_ptr	cJSON.c	/^static char *print_string_ptr(const char *str,printbuffer *p)$/;"	f	file:
+print_value	cJSON.c	/^static char *print_value(cJSON *item,int depth,int fmt,printbuffer *p)$/;"	f	file:
+printbuffer	cJSON.c	/^typedef struct {char *buffer; int length; int offset; } printbuffer;$/;"	t	typeref:struct:__anon1	file:
+readUSBFileNode	usbmonitor.c	/^int readUSBFileNode(const char *dev_node,char *buffer,unsigned len)$/;"	f
+recv_sock_addr	include/socketmanager.h	/^	struct sockaddr_un recv_sock_addr;$/;"	m	struct:__anon4	typeref:struct:__anon4::sockaddr_un
+recv_sockfd	include/socketmanager.h	/^	int recv_sockfd;$/;"	m	struct:__anon4
+red_fd	include/lightmanager.h	/^    int red_fd;$/;"	m	struct:__anon6
+rootPath	mediamanager.c	/^const char rootPath[] = {MEM_ROOT_PATH};$/;"	v
+sd_status	include/logic.h	/^    SDCARD_STATUS_E sd_status;$/;"	m	struct:PLAYER_SD_STATUS_CONTEXT
+sdscancond	mediamanager.c	/^pthread_cond_t sdscancond;$/;"	v
+sdscanlock	mediamanager.c	/^pthread_mutex_t sdscanlock;$/;"	v
+search_favourite_media	mediamanager.c	/^int search_favourite_media(struct list_head **_headnode)$/;"	f
+search_media	mediamanager.c	/^int search_media(const char *media, struct list_head **_headnode)$/;"	f
+send_sock_addr	include/socketmanager.h	/^	struct sockaddr_un send_sock_addr;$/;"	m	struct:__anon4	typeref:struct:__anon4::sockaddr_un
+send_sockfd	include/socketmanager.h	/^	int send_sockfd;$/;"	m	struct:__anon4
+show	mediamanager.c	/^void show(struct list_head *_headnode)$/;"	f
+sighandler	genievendor.c	/^static void sighandler(int signo, siginfo_t *info, void *context)$/;"	f	file:
+sinology_headnode	mediamanager.c	/^struct list_head *sinology_headnode = NULL;$/;"	v	typeref:struct:list_head
+skip	cJSON.c	/^static const char *skip(const char *in) {while (in && *in && (unsigned char)*in<=32) in++; return in;}$/;"	f	file:
+socket_send	socketmanager.c	/^int socket_send(SOCKET_CONTEXT_T * ctx, char * buffer, int len)$/;"	f
+socket_start	socketmanager.c	/^int socket_start(pthread_t* thread){$/;"	f
+story_headnode	mediamanager.c	/^struct list_head *story_headnode = NULL;$/;"	v	typeref:struct:list_head
+string	include/cJSON.h	/^	char *string;				\/* The item's name string, if this item is the child of, or is in the list of subitems of an object. *\/$/;"	m	struct:cJSON
+suffix_object	cJSON.c	/^static void suffix_object(cJSON *prev,cJSON *item) {prev->next=item;item->prev=prev;}$/;"	f	file:
+support_type	mediamanager.c	/^const char *support_type[2] = {$/;"	v
+system_status	include/logic.h	/^    SYSTEM_STATUS_E system_status;$/;"	m	struct:__anon14
+tone_add_or_del_status	logic.c	/^static int tone_add_or_del_status(FAV_RETVALUE_E retValue)$/;"	f	file:
+type	include/cJSON.h	/^	int type;					\/* The type of the item, as above. *\/$/;"	m	struct:cJSON
+unread	include/mediamanager.h	/^	bool unread; $/;"	m	struct:filenode
+update	cJSON.c	/^static int update(printbuffer *p)$/;"	f	file:
+usb_monitor_start	usbmonitor.c	/^int usb_monitor_start(pthread_t* thread){$/;"	f
+usb_status	include/logic.h	/^    USB_STATUS_E usb_status;        $/;"	m	struct:PLAYER_USB_STATUS_CONTEXT
+usbpthreadlock	usbmonitor.c	/^pthread_mutex_t usbpthreadlock;$/;"	v
+usbpthreadruncond	usbmonitor.c	/^pthread_cond_t  usbpthreadruncond;$/;"	v
+valuedouble	include/cJSON.h	/^	double valuedouble;			\/* The item's number, if type==cJSON_Number *\/$/;"	m	struct:cJSON
+valueint	include/cJSON.h	/^	int valueint;				\/* The item's number, if type==cJSON_Number *\/$/;"	m	struct:cJSON
+valuestring	include/cJSON.h	/^	char *valuestring;			\/* The item's string, if type==cJSON_String *\/$/;"	m	struct:cJSON
