@@ -1,19 +1,6 @@
 /*****************************************************************
 *
-* 阿里巴巴人工智能实验室 厂商开放代码
 *
-* 仅供与人工智能实验室的合作厂商内部开发使用
-* 禁止任何形式的开源或传播
-* Author:liuwei01@qichengtec.com
-* Funciton:local audio play sd card scan and meidia play button
-           interface v1.0 
-  Date:2018.1.8
-* Author: humenglong@qichengtec.com
-* Funciton:Add local meida file sort 
-* Date:
-* Author: zhuqingshui@qichengtec.com
-* Function:Add local favourtie file function 
-* Date:
 *****************************************************************/
 
 /*****************************************************************
